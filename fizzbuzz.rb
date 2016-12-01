@@ -17,7 +17,7 @@ end
 (1..100).each do |i|
   tmp = ''
   tmp += 'fizz' if i % 3 == 0
-  tmp += 'fizz' if i % 5 == 0
+  tmp += 'buzz' if i % 5 == 0
   print tmp.empty? ? i : tmp
 end
 
